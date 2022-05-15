@@ -1,0 +1,19 @@
+.home-left{
+    padding: 10px;
+    background-color: none;
+    margin-top: 50px;
+    padding-left: 50px;
+    
+}
+.subhead{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.piodos-body-content{
+    padding: 20px;
+}
+
+.logincontainer{
+    margin-top: 50px;
+}
