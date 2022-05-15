@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+
+
+body{
+  padding-top: 0%;
+  margin-top: 0%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-main{
+  width: 100%;
+  
+}
+.links-menu{
+  font-size: 16px;
+  color:white;
+  margin: 3%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links-menu:hover{
+  color: whitesmoke;
+}
+.piodos-left{
+
+ text-align: right;
+ display: flex;
+
+ justify-content: end;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.position{
+  position: absolute;
+  padding:0px;
+ 
+}
+
+.content-height{
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
+.content-text{
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
+
+.subhead{
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 29px;
+  font-size: 16px;
+}
+
+.registercontainer{
+  display: none;
+}
+
+
+
+.background-color-text{
+  color:white;
+
+}
+
+.background-color-text:hover{
+  color:black;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+
+.bg-link{
+  color:black;
+  background-color: white;
+}
+
+.background-color-text:hover .bg-link{
+  color:white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.sign-up{
+  background-color:#0497e0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.sign-up:hover{
+  color:whitesmoke;
+  background-color:#02a6f7;
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+  #sidebar{
+display: none;
   }
 }

@@ -1,0 +1,22 @@
+#navbar{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);    
+}
+.navbar{
+    font-size: 20px;
+}
+
+#logo-name{
+    font-family: 'Rubik', sans-serif;    
+    font-size:25px ;
+    margin-top:5px;
+    color:#575858;
+    line-height:23px ;
+    font-weight:bold;
+    word-spacing: 4px;
+
+}
+
+.nav-item .nav-link{
+    text-decoration: none;
+}
